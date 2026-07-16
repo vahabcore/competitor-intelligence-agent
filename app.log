@@ -1,0 +1,23 @@
+2026-07-16 22:20:58,955 - demo_script - INFO - Starting demonstration of FileHandler utility.
+2026-07-16 22:20:58,958 - demo_script - INFO - Writing to demo_config.json...
+2026-07-16 22:20:58,961 - utils.file_handler - INFO - Successfully wrote JSON file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_config.json
+2026-07-16 22:20:58,962 - demo_script - INFO - Reading from demo_config.json...
+2026-07-16 22:20:58,964 - utils.file_handler - INFO - Successfully read JSON file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_config.json
+2026-07-16 22:20:58,964 - demo_script - INFO - Read config: {'app_name': 'CompetitorIntelligenceAgent', 'version': '1.0.0', 'active': True}
+2026-07-16 22:20:58,965 - demo_script - INFO - Writing to demo_data.csv...
+2026-07-16 22:20:58,969 - utils.file_handler - INFO - Successfully wrote CSV file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_data.csv
+2026-07-16 22:20:58,969 - demo_script - INFO - Reading from demo_data.csv...
+2026-07-16 22:20:58,971 - utils.file_handler - INFO - Successfully read CSV file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_data.csv (2 rows)
+2026-07-16 22:20:58,971 - demo_script - INFO - Read data: [{'id': '1', 'competitor': 'Company A', 'status': 'active'}, {'id': '2', 'competitor': 'Company B', 'status': 'inactive'}]
+2026-07-16 22:20:58,971 - demo_script - INFO - Writing to demo_notes.txt...
+2026-07-16 22:20:58,975 - utils.file_handler - INFO - Successfully wrote text file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_notes.txt
+2026-07-16 22:20:58,975 - demo_script - INFO - Reading from demo_notes.txt...
+2026-07-16 22:20:58,976 - utils.file_handler - INFO - Successfully read text file: C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\demo_notes.txt
+2026-07-16 22:20:58,977 - demo_script - INFO - Read text:
+This is a simple note.
+It supports multiple lines.
+
+2026-07-16 22:20:58,977 - demo_script - INFO - Attempting to read missing file: does_not_exist.json...
+2026-07-16 22:20:58,977 - utils.file_handler - ERROR - Failed to read JSON file at C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\does_not_exist.json: [Errno 2] No such file or directory: 'C:\\Users\\svaha\\WorkSpace\\AI Agnets\\competitor-intelligence-agent\\data\\does_not_exist.json'
+2026-07-16 22:20:58,977 - demo_script - ERROR - Caught expected FileImportError: Failed to read JSON file at C:\Users\svaha\WorkSpace\AI Agnets\competitor-intelligence-agent\data\does_not_exist.json: [Errno 2] No such file or directory: 'C:\\Users\\svaha\\WorkSpace\\AI Agnets\\competitor-intelligence-agent\\data\\does_not_exist.json'
+2026-07-16 22:20:58,978 - demo_script - INFO - Demonstration completed successfully.
