@@ -8,6 +8,7 @@ model = os.getenv("LLM_MODEL")
 base_url = os.getenv("LLM_BASE_URL")
 api_key = os.getenv("LLM_API_KEY")
 tavily_key = os.getenv("TAVILY_API_KEY")
+smart_llm_model = os.getenv("SMART_LLM_MODEL")
 chroma_db_dir = os.getenv("CHROMA_DB_DIR", "./data/chroma_db")
 
 

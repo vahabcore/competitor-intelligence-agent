@@ -1,2 +1,3 @@
 # Functions called by agents (tool-calling)
-from .convert_vector import ingest_document_fn, query_internal_data_fn
+from .vector_db_tool import ingest_document, query_internal_data
+from .search_tool import search_competitor, scrape_url_content

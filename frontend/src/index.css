@@ -1,0 +1,118 @@
+/* index.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --bg-color: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+  --accent-color: #000000;
+  --accent-hover: #333333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Industrial clean aesthetic */
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  box-shadow: none;
+  background-color: var(--bg-color);
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  padding: 1rem 1.25rem;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 0;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.form-control:focus {
+  border-color: var(--accent-color);
+  box-shadow: none;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-color) !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--accent-color) !important;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--text-secondary) !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: var(--accent-color) !important;
+}
+
+.markdown-body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body h1 { font-size: 1.5rem; }
+.markdown-body h2 { font-size: 1.25rem; }
+.markdown-body h3 { font-size: 1.1rem; }
+
+.markdown-body p, .markdown-body ul, .markdown-body ol {
+  margin-bottom: 1rem;
+}
